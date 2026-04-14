@@ -144,3 +144,9 @@ export HERD_PHP_84_INI_SCAN_DIR="/Users/driesvints/Library/Application Support/H
 
 # Herd injected PHP 8.5 configuration.
 export HERD_PHP_85_INI_SCAN_DIR="/Users/driesvints/Library/Application Support/Herd/config/php/85/"
+
+if [[ -f "$HOME/.env" ]]; then
+  set -a
+  source "$HOME/.env"
+  set +a
+fi
