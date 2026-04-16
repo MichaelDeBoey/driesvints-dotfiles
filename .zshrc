@@ -150,3 +150,5 @@ if [[ -f "$HOME/.env" ]]; then
   source "$HOME/.env"
   set +a
 fi
+
+export PATH="$HOME/.local/bin:$PATH"
