@@ -8,7 +8,6 @@ brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
-brew 'entireio/tap/entire'
 brew 'ffmpeg'
 brew 'gh'
 brew 'git'
